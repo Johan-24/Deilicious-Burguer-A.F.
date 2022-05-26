@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/Logo.png" type="image/png">
+    <link rel="stylesheet" href="/css/app.css" type="text/css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header class="header inicio">
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <a href="/index.html"><img src="/img/Logo.png" alt="Logo de Empresa de Hamburguesas"></a>
+                <nav class="navegacion">
+                    <a href="/html/nosotros.html">Nosotros</a>
+                    <a href="/html/anuncios.html">Anuncios</a>
+                    <a href="/html/blog.html">Blog</a>
+                    <a href="/html/contacto.html">Contáctenos</a>
+                </nav>
+            </div>
+            <h1>Venta De Comidas Rápidas<br>Delicious Burger A.F.</h1>
+            <a href="https://wa.me/3222935188" target="_blank"><img src="/ico/Whatsapp.png" class="flotante"></a>
+        </div>
+    </header>
+    
+    <main class="contenedor seccion imagen-contacto-form">
+        <h1>Formulario de Contacto Delicious Burguer A.F.</h1>
+        <img src="/img/Asesor.jpg" alt="Imagen Para Contatar a un Asesor">
+        <h2>Diligencie el Formulario de Contacto</h2>
+        <form class="formulario">
+            <fieldset>
+                <legend> Información Personal </legend>
+                <label for="nombre">Nombre: </label>
+                <input type="text" placeholder="Tu Nombre" id="nombre">
+
+                <label for="email">E-Mail: </label>
+                <input type="email" placeholder="Tu E-Mail" id="email">
+
+                <label for="telefono">Tu Teléfono: </label>
+                <input type="tel" placeholder="Tu Teléfono" id="telefono">
+
+                <label for="mensaje">Tu Mensaje: </label>
+                <textarea id="mensaje">
+
+                </textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend> Información Sobre los Productos </legend>
+                <label for="opciones">Compra, Cotiza o PQRS: </label>
+                <select id="opciones">
+                    <option value="" disabled selected>--Seleccione--</option>
+                    <option value="compra">Compra Productos</option>
+                    <option value="cotiza">Cotiza Productos</option>
+                    <option value="pqrs">Peticiones, Quejas, Reclamos o sugerencias</option>
+                </select>
+
+                <label for="respuesta">Medio de Respuesta: </label>
+                <select id="respuesta">
+                    <option value="" disabled selected>--Seleccione--</option>
+                    <option value="telefono">Teléfono</option>
+                    <option value="correo">Correo</option>
+                </select>
+
+                <label for="res">Medio de Respuesta: </label>
+                <input type="text" placeholder="Medio de Respuesta" id="res">
+            </fieldset>
+
+            <fieldset>
+                <legend> Información de Contacto </legend>
+                <p>¿Como desea ser contactado?</p>
+                <div class="forma-contacto">
+                    <label for="contacto-telefono">Teléfono: </label>
+                    <input type="radio" name="contacto" value="telefono" id="contacto-telefono">
+
+                    <label for="contacto-email">E-Mail: </label>
+                    <input type="radio" name="contacto" value="email" id="contacto-email">
+                </div>
+                <p>Si eligió teléfono indica la fecha y hora para ser contactado</p>
+
+                <label for="fecha">Fecha: </label>
+                <input type="date" id="fecha">
+
+                <label for="hora">Hora: </label>
+                <input type="time" id="hora" min="09:00" max="18:00">
+            </fieldset>
+            <button type="submit">Envíar</button>
+        </form>
+    </main>
+
+    <footer class="footer seccion">
+        <div class="contenedor contenedor-footer">
+            <nav class="navegacion">
+                <a href="/html/nosotros.html">Nosotros</a>
+                <a href="/html/anuncios.html">Anuncios</a>
+                <a href="/html/blog.html">Blog</a>
+                <a href="/html/contacto.html">Contáctenos</a>
+            </nav>
+            <nav class="redes">
+                <a href="#instagram_DeliciousburguerAF" target="_blank"><img src="/ico/Instagram.png"
+                        alt="Icono de Instagram"></a>
+                <a href="#facebook_DeliciousburguerAF" target="_blank"><img src="/ico/Facebook.png"
+                        alt="Icono de Facebook"></a>
+                <a href="https://wa.me/3222935188" target="_blank"><img src="/ico/Whatsapp ico.png"
+                        alt="Icono de Whatsapp"></a>
+            </nav>
+        </div>
+        <p class="copyright">Todos los Derechos Reservados 2022 &copy;</p>
+    </footer>
+</body>
+
+</html>
