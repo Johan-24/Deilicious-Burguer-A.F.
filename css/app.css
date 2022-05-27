@@ -426,7 +426,7 @@ footer {
       display: flex; } }
 
 .inicio {
-  background-image: url(/img/Fondo.png);
+  background-image: url(./img/Fondo.png);
   background-color: black; }
 
 .header {
@@ -571,7 +571,7 @@ footer {
   font-family: "Alegreya Sans", sans-serif; }
 
 .imagen-contacto {
-  background-image: url(/img/Contactenos.jpg);
+  background-image: url(./img/Contactenos.jpg);
   background-position: center center;
   background-size: cover;
   padding: 15rem 0;
